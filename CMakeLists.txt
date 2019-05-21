@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(Tetravex)
+project(Fibonacci)
 
 set(CMAKE_CXX_FLAGS "-Wall -Wextra -std=c++11 -pedantic")
 

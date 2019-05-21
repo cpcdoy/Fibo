@@ -1,2 +1,1 @@
-
-add_library(fibo OBJECT)
+add_library(fibo OBJECT fibo.cc)
