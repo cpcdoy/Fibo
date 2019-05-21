@@ -14,8 +14,11 @@ int main(int argc, char** argv)
 {
 	fibo f;
 
-	std::cout << f.get_even_sum(18446744073) << std::endl;
-	std::cout << f.get_even_sum(6) << std::endl;
+	for (int i = 0; i < 20; i++)
+		std::cout << "no loop " <<  f.get_even_sum(i) << std::endl;
+
+	for (int i = 0; i < 20; i++)
+		std::cout << f.get_even_sum(i, false) << std::endl;
 
     return 0;
 }
