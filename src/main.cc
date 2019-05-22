@@ -24,7 +24,7 @@ int main(int argc, char** argv)
 		// Print out the results
 		std::cout << "Testing both methods: loops vs no loops" << std::endl;
 		std::cout << "Results: Outputs match " << t.get_match_percentage(f, std::atoi(argv[1]) + 1) << " %" << std::endl;
-		std::cout << "This is due to precision loss when using our second \"no loops\" method" << std::endl;
+		std::cout << "NOTE: There is precision loss when using the second \"no loops\" method" << std::endl;
 
 		return 0;
 	}
