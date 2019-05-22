@@ -7,7 +7,7 @@ class fibo
 	public:
 		fibo() { }
 
-		unsigned long long int get_even_sum(int n, bool no_loops = true);
+		unsigned long long int get_even_sum(int n, bool no_loops = false);
 
 	private:
 		const double phi = (1.0 + sqrt(5.0)) / 2.0;

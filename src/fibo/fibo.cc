@@ -1,4 +1,5 @@
 #include "fibo.hh"
+
 #include <iostream>
 
 unsigned long long int fibo::get_even_sum(int n, bool no_loops)
@@ -23,6 +24,7 @@ unsigned long long int fibo::even_sum(int n)
 
 	n -= 6;
 	n /= 3;
+
 	int i = 0;
 	while (true)
 	{
@@ -40,8 +42,13 @@ unsigned long long int fibo::even_sum(int n)
 
 unsigned long long int fibo::even_sum_no_loop(int n)
 {
+	if (n <= 2)
+		return 2;
+	else if (n <= 5)
+		return 8;
+
 	auto n_k = n / 3;
-	std::cout << "r " << n_k << std::endl;
+
 	auto phi3 = pow(phi, 3);
 	auto psi3 = pow(psi, 3);
 
