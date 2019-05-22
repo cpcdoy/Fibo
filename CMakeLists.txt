@@ -23,8 +23,3 @@ add_custom_target(deep_clean
   COMMAND find . -iwholename '*Makefile*' -delete
   COMMAND rm -rf ${BIN_NAME}
 )
-
-add_custom_target(doc
-  WORKING_DIRECTORY src
-  COMMAND doxygen ../Doxyfile
-)
