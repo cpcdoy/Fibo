@@ -1,7 +1,7 @@
 # Fibo
 Compute the sum of the first n even fibonacci numbers
 
-## Usage:
+## Usage:
 
 Computes the first n even numbers from the fibonacci sequence using 2 methods and compares their results.
 Usage: fibonacci n
